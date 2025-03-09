@@ -19,6 +19,9 @@ return new class extends Migration
         $table->string('portada');
         $table->timestamps();
         $table->foreignId('grupo_id')->constrained('grupos')->onDelete('cascade');
+        $table->foreignId('material_id')->constrained('materiales')->onDelete('cascade');
+        $table->foreignId('inscripcion_id')->constrained('inscripciones')->onDelete('cascade');
+  
     });
 }
 
