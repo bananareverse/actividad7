@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             //GruposSeeder::class,
             //UsersSeeder::class,
         
-        ]);      
+        ]);      //hola
           
     }
 }
